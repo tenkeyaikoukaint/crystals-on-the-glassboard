@@ -368,8 +368,28 @@ class Game:
             self.print_msg("  ！！ 撃ち落とされた！")
             target.is_flying = False; target.hp -= 15; target.vulnerable = True
 
+    def battle_start_msg(self):
+        if self.p1.name == "藤沢美幸" and self.p2.name == "白沢恵子":
+            print("美幸「お姉さま・・・女同士の甘やかな官能の世界に誘ってさしあげるわ」")
+            print("恵子「やめい！　小娘」")
+        elif self.p1.name == "藤沢美幸" and self.p2.name == "山口春香":
+            print("春香「美幸ちゃあん、やめようよお　みんな・・・仲良く」")
+            print("美幸「春香、邪魔しないで」")
+            print("春香「もおお・・・美幸ちゃんだからって容赦しないからね？」")
+        elif self.p1.name == "安土利一" and self.p2.name == "白沢恵子":
+            print("安土「恵子ちゃん・・・ここは通せない」")
+            print("恵子「力づくで通させてもらうわ」")
+        elif self.p1.name == "藤沢美幸" and self.p2.name == "黎":
+            print("黎「まさか私たちがこんなことになろうとはな」")
+            print("美幸「こうなった以上仕方ないわ」")
+        elif self.p1.name == "藤沢美幸" and self.p2.name == "林正洋":
+            print("正洋「きみの力は危険だ。封じさせてもらう」")
+            print("美幸「やれるもんならやってみなさいよ」")
+
+ 
     def run(self):
         print("【Crystals on the Glassboard - Ver1.4.1 BUG FIX & AI UPDATE】")
+        self.battle_start_msg()
         while self.p1.is_alive() and self.p2.is_alive():
             for p in [self.p1, self.p2]:
                 p.is_guarding = False
@@ -556,6 +576,7 @@ def main():
     except: player = chars[0]
         
     enemy = copy.deepcopy(random.choice([c for c in chars if c.name != player.name]))
+    # enemy = chars[7]
     Game(player, enemy).run()
 
 if __name__ == "__main__":
