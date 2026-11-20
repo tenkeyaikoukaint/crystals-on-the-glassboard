@@ -123,12 +123,5 @@ P2 林健次: HP 120/120 | SP  80/80
 
 This project is licensed under the MIT License.
 
-```
 
-<ElicitationsGroup message="リポジトリの完成度をさらに高める場合:">
-  <Elicitation label="コード内に型ヒント（Type Hints）と英語コメントを追加する" query="海外の開発者もコード自体を読みやすいよう、Ver1.6.0のコードに標準ライブラリのtypingを使った型ヒントと簡潔な英語Docstringを追加して。"/>
-  <Elicitation label="コマンドライン引数（--simなど）で直接実行できるようにする" query="ターミナルから python3 main.py --sim 500 のように引数つきで直接シミュレーターを回せるよう、sys.argvによるCLI引数処理を追加して。"/>
-  <Elicitation label="全キャラの勝率がより拮抗するよう微調整する" query="総当たりシミュレーションの勝率マトリクスで、下位キャラ（白沢恵子・林健次・ブラウ）の勝率が50%に近づくようパラメータとAIを微調整して。"/>
-</ElicitationsGroup>
 
-```
