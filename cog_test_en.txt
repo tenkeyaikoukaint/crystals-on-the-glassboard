@@ -1,0 +1,10 @@
+[Overall Win Rate Ranking (Sample Run)]
+  1st: Haruka Yamaguchi - Win Rate 58.4% (Barrier/Ice Shield Deployments: 682 / Win Rate When Deployed: 60.1%)
+  2nd: Rei              - Win Rate 56.1% (Barrier/Ice Shield Deployments: 695 / Win Rate When Deployed: 58.3%)
+  3rd: Miyuki Fujisawa  - Win Rate 53.8% (Barrier/Ice Shield Deployments: 660 / Win Rate When Deployed: 55.6%)
+  4th: Toshikazu Azuchi - Win Rate 52.0%
+  5th: Masahiro Hayashi - Win Rate 50.4% (Barrier/Ice Shield Deployments: 490 / Win Rate When Deployed: 52.0%)
+  6th: Silreim          - Win Rate 48.2%
+  7th: Blau             - Win Rate 46.5%
+  8th: Kenji Hayashi    - Win Rate 43.1%
+  9th: Keiko Shirasawa  - Win Rate 41.5%
