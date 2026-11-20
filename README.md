@@ -1,8 +1,5 @@
-GitHubのリポジトリトップで海外のエンジニアやゲームデザイナーの目を一気に引きつけられるよう、**英語を先頭、日本語を後半に配置した構成の `README.md**` です。
 
-そのままコピーして `README.md` として保存できます（ファイル名が異なる場合は `python3 main.py` の部分のみ書き換えてください）。
 
-```markdown
 # Crystals on the Glassboard (Ver 1.6.0)
 
 **A Zero-Dependency 1D Tactical Fighting Simulator & Monte Carlo Balance Engine in Pure Python**  
